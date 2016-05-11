@@ -1,11 +1,20 @@
 {
-  "author": "Tony Quetano <tquetano@rapid7.com>",
+  "author": {
+    "name": "Tony Quetano",
+    "email": "tony_quetano@rapid7.com"
+  },
   "bugs": {
     "url": "https://github.com/rapid7/esling-config-rapid7/issues"
   },
   "contributors": [
-    "Tony Quetano <tquetano@rapid7.com>",
-    "David Greene <dgreene@rapid7.com>"
+    {
+      "name": "Tony Quetano",
+      "email": "tony_quetano@rapid7.com"
+    },
+    {
+      "name": "David Greene",
+      "email": "david_greene@rapid7.com"
+    }
   ],
   "dependencies": {
     "eslint-config-airbnb": "8.0.0",
