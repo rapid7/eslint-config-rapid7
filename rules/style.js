@@ -37,17 +37,10 @@ module.exports = {
       'avoidQuotes': true
     }],
     'one-var': [2, {
-      var: 'always',
       let: 'always',
       const: 'never'
     }],
     'operator-assignment': [2, 'always'],
-    'operator-linebreak': [2, 'after', {
-      overrides: {
-        '?': 'before',
-        ':': 'before'
-      }
-    }],
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'as-needed'],
     'quotes': [2, 'single', {
