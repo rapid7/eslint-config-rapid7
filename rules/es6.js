@@ -33,11 +33,29 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'arrow-body-style': 0,
+    'arrow-body-style': [2, 'always'],
+    'array-bracket-spacing': [2, 'never'],
     'arrow-parens': [2, 'always'],
-    'arrow-spacing': 2,
-    'no-class-assign': 1,
-    'object-shorthand': [1, 'always'],
-    'prefer-spread': 1
+    'arrow-spacing': [2, {
+      'after': true,
+      'before': true
+    }],
+    'computed-property-spacing': [2, 'never'],
+    'constructor-super': 2,
+    'generator-star-spacing': [2, {
+      'after': true,
+      'before': false
+    }],
+    'no-caller': 1,
+    'no-class-assign': 2,
+    'no-const-assign': 2,
+    'no-this-before-super': 2,
+    'no-useless-computed-key': 2,
+    'object-shorthand': [2, 'always', {
+      'avoidQuotes': true
+    }],
+    'prefer-spread': 1,
+    'rest-spread-spacing': [2, 'never'],
+    'yield-star-spacing': [2, 'after']
   }
 };

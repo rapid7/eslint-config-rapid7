@@ -17,15 +17,13 @@
     }
   ],
   "dependencies": {
-    "eslint-config-airbnb": "8.0.0",
-    "eslint-plugin-jsx-a11y": "1.0.2",
-    "eslint-plugin-import": "1.6.0",
-    "eslint-plugin-react": "5.0.1"
+    "eslint": ">=2.0.0",
+    "eslint-plugin-import": ">=2.0.0",
+    "eslint-plugin-react": ">=6.4.1"
   },
   "description": "Rapid7's ESLint config, following our styleguide",
   "devDependencies": {
-    "eslint": ">=2.0.0",
-    "react": ">=0.14.0 <=0.14.8 || >=15.0.0"
+    "react": ">=0.14.0"
   },
   "directories": {},
   "homepage": "https://github.com/rapid7/eslint-config-rapid7",
@@ -47,9 +45,6 @@
   ],
   "name": "eslint-config-rapid7",
   "optionalDependencies": {},
-  "peerDependencies": {
-    "eslint": ">=2.0.0"
-  },
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
