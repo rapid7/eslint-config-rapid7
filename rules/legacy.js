@@ -4,7 +4,8 @@ module.exports = {
   },
   rules: {
     'max-depth': [1, 6],
-    'max-len': [1, 120, {
+    'max-len': [1, {
+      'code': 120,
       'ignoredComments': true,
       'ignoreTrailingComments': true,
       'ignoreUrls': true,
