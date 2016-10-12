@@ -40,7 +40,6 @@ module.exports = {
       let: 'always',
       const: 'never'
     }],
-    'operator-assignment': [2, 'always'],
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'as-needed'],
     'quotes': [2, 'single', {
