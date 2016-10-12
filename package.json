@@ -50,5 +50,5 @@
     "type": "git",
     "url": "git+https://github.com/rapid7/eslint-config-rapid7.git"
   },
-  "version": "2.0.0-5"
+  "version": "2.0.0-6"
 }

@@ -6,7 +6,8 @@ module.exports = {
     'max-depth': [1, 6],
     'max-len': [2, {
       'code': 120,
-      'ignoreStrings': true
+      'ignoreStrings': true,
+      'ignoreTemplateLiterals': true
     }],
     'max-statements': [1, 50],
     'no-bitwise': 1
