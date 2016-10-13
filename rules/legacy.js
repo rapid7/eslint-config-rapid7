@@ -9,7 +9,6 @@ module.exports = {
       'ignoreStrings': true,
       'ignoreTemplateLiterals': true
     }],
-    'max-statements': [1, 50],
-    'no-bitwise': 1
+    'max-statements': [1, 50]
   }
 };
