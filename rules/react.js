@@ -22,6 +22,7 @@ module.exports = {
       'maximum': 1
     }],
     'react/jsx-no-duplicate-props': 2,
+    'react/jsx-no-target-blank': 2,
     'react/jsx-no-undef': 1,
     'react/jsx-sort-props': 2,
     'react/jsx-uses-react': 2,
