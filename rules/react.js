@@ -8,6 +8,7 @@ module.exports = {
   'rules': {
     'jsx-quotes': [2, 'prefer-double'],
 
+    'react/jsx-closing-bracket-location': 2,
     'react/jsx-curly-spacing': [2, 'never'],
     'react/jsx-equals-spacing': [2, 'never'],
     'react/jsx-filename-extension': [2, {
