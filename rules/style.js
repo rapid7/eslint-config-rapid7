@@ -37,8 +37,7 @@ module.exports = {
       'avoidQuotes': true
     }],
     'one-var': [2, {
-      let: 'always',
-      const: 'never'
+      'const': 'never'
     }],
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'as-needed'],
