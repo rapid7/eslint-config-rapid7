@@ -24,6 +24,7 @@ module.exports = {
     'linebreak-style': [1, 'unix'],
     'no-trailing-spaces': 1,
     'no-irregular-whitespace': 1,
+    'prefer-spread': 0,
     strict: [2, 'global'],
     'require-jsdoc': [1, {
       require: {
