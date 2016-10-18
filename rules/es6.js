@@ -26,7 +26,6 @@ module.exports = {
       templateStrings: true,
       unicodeCodePointEscapes: true,
       globalReturn: true,
-      jsx: true,
       experimentalObjectRestSpread: true
     },
     ecmaVersion: 6,
