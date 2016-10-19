@@ -23,13 +23,13 @@ module.exports = {
     sourceType: 'script'
   },
   rules: {
+    'prefer-spread': 0,
     strict: [2, 'global'],
     'block-spacing': [1, 'always'],
     indent: [1, 2],
     'linebreak-style': [1, 'unix'],
     'no-trailing-spaces': 1,
     'no-irregular-whitespace': 1,
-    'prefer-spread': 0,
     'require-jsdoc': [1, {
       require: {
         FunctionDeclaration: true,
