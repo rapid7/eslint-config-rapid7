@@ -12,7 +12,6 @@ module.exports = {
   parserOptions: {
     ecmaFeatures: {
       globalReturn: false,
-      jsx: false,
       experimentalObjectRestSpread: false
     },
     sourceType: 'script'
