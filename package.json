@@ -45,6 +45,11 @@
   ],
   "name": "eslint-config-rapid7",
   "optionalDependencies": {},
+  "peerDependencies": {
+    "eslint": "^3.7.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-react": "^6.4.0"
+  },
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

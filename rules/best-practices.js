@@ -1,7 +1,12 @@
+'use strict';
+
 module.exports = {
+  plugins: [
+    'import'
+  ],
   rules: {
     'dot-location': [2, 'property'],
-    'eqeqeq': 2,
+    eqeqeq: 2,
     'no-caller': 1,
     'no-delete-var': 2,
     'no-dupe-args': 2,
@@ -29,7 +34,7 @@ module.exports = {
     'no-useless-call': 2,
     'no-useless-concat': 2,
     'no-useless-rename': 2,
-    'radix': 2,
+    radix: 2,
     'wrap-iife': [2, 'outside'],
 
     'import/export': 2,

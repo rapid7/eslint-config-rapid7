@@ -1,3 +1,5 @@
+'use strict';
+
 /*
 * NodeJS 4.x:
 * - Supports CommonJS module/require

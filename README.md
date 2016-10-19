@@ -2,9 +2,21 @@
 
 This package provides Rapid7's .eslintrc as an extensible shared config.
 
+## Installation
+
+```
+$ npm install eslint-config-rapid7 --save-dev
+```
+
+If you are using npm v2.x.x, you will need to also install eslint and the plugins that are peer dependencies:
+
+```
+$ npm install eslint eslint-plugin-import eslint-plugin-react --save-dev
+```
+
 ## Usage
 
-We export five ESLint configurations for your usage.
+We export five ESLint configurations:
 
 ### eslint-config-rapid7
 

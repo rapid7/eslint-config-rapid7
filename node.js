@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   extends: [
     'eslint-config-rapid7/rules/node',
@@ -9,8 +11,5 @@ module.exports = {
     amd: false,
     mocha: false,
     jasmine: false
-  },
-  ecmaFeatures: {},
-  globals: {},
-  rules: {}
+  }
 };

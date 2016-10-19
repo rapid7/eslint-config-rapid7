@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   plugins: [
     'react'
@@ -26,7 +28,9 @@ module.exports = {
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-target-blank': 2,
     'react/jsx-no-undef': 1,
-    'react/jsx-sort-props': 2,
+    'react/jsx-sort-props': [2, {
+      ignoreCase: true
+    }],
     'react/jsx-uses-react': 2,
     'react/jsx-uses-vars': 2,
     'react/no-is-mounted': 2,

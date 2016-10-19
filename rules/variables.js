@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: {
     'no-catch-shadow': 2,
@@ -5,8 +7,8 @@ module.exports = {
     'no-delete-var': 2,
     'no-undef-init': 2,
     'no-unused-vars': [1, {
-      'vars': 'all',
-      'varsIgnorePattern': 'React|[iI]gnored'
+      vars: 'all',
+      varsIgnorePattern: 'React|[iI]gnored'
     }],
     'no-use-before-define': 2,
     'no-var': 2

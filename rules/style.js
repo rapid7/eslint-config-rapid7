@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: {
     'block-spacing': [2, 'never'],
@@ -11,7 +13,7 @@ module.exports = {
     }],
     'comma-style': [2, 'last'],
     'computed-property-spacing': [2, 'never'],
-    'curly': 2,
+    curly: 2,
     'eol-last': 2,
     'func-call-spacing': [2, 'never'],
     'key-spacing': [2, {
@@ -41,15 +43,15 @@ module.exports = {
     }],
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'as-needed'],
-    'quotes': [2, 'single', {
-      'avoidEscape': true,
-      'allowTemplateLiterals': true
+    quotes: [2, 'single', {
+      avoidEscape: true,
+      allowTemplateLiterals: true
     }],
-    'semi': [2, 'always'],
+    semi: [2, 'always'],
     'space-before-blocks': [2, {
-      'classes': 'always',
-      'functions': 'always',
-      'keywords': 'always'
+      classes: 'always',
+      functions: 'always',
+      keywords: 'always'
     }],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
