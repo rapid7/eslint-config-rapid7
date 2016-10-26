@@ -35,6 +35,7 @@ module.exports = {
     'react/jsx-uses-vars': 2,
     'react/no-is-mounted': 2,
     'react/prefer-es6-class': 2,
+    'react/prop-types': 2,
     'react/require-render-return': 2,
     'react/sort-comp': [1, {
       'order': [
