@@ -13,6 +13,7 @@ module.exports = {
     'no-dupe-class-members': 2,
     'no-dupe-keys': 2,
     'no-duplicate-case': 2,
+    'no-else-return': 2,
     'no-empty': 2,
     'no-empty-pattern': 2,
     'no-eval': 2,
