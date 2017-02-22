@@ -2,6 +2,7 @@
 
 module.exports = {
   rules: {
+    'array-bracket-spacing': [2, 'never'],
     'block-spacing': [2, 'never'],
     'brace-style': [2, '1tbs', {
       'allowSingleLine': true
@@ -16,6 +17,24 @@ module.exports = {
     curly: 2,
     'eol-last': 2,
     'func-call-spacing': [2, 'never'],
+    indent: [2, 2, {
+      ArrayExpression: 1,
+      CallExpression: {
+        arguments: 1
+      },
+      FunctionDeclaration: {
+        body: 1,
+        parameters: 1
+      },
+      FunctionExpression: {
+        body: 1,
+        parameters: 1
+      },
+      ObjectExpression: 1,
+      MemberExpression: 1,
+      SwitchCase: 1,
+      VariableDeclarator: 2
+    }],
     'key-spacing': [2, {
       'afterColon': true,
       'beforeColon': false
@@ -29,9 +48,9 @@ module.exports = {
     'no-array-constructor': 2,
     'no-constant-condition': 2,
     'no-extra-boolean-cast': 2,
-    'no-floating-decimal': 2,
+    'no-extra-parens': 2,
+    'no-extra-semi': 2,
     'no-lonely-if': 2,
-    'no-multi-spaces': 2,
     'no-multiple-empty-lines': 2,
     'no-unexpected-multiline': 1,
     'no-unneeded-ternary': 2,
@@ -44,6 +63,7 @@ module.exports = {
     'one-var': [2, {
       'const': 'never'
     }],
+    'one-var-declaration-per-line': [1, 'initializations'],
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'as-needed'],
     quotes: [2, 'single', {

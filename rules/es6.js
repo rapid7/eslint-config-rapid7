@@ -35,7 +35,6 @@ module.exports = {
   },
   rules: {
     'arrow-body-style': [2, 'always'],
-    'array-bracket-spacing': [2, 'never'],
     'arrow-parens': [2, 'always'],
     'arrow-spacing': [2, {
       'after': true,
@@ -52,11 +51,13 @@ module.exports = {
     'no-const-assign': 2,
     'no-this-before-super': 2,
     'no-useless-computed-key': 2,
+    'no-useless-rename': 2,
     'object-shorthand': [2, 'always', {
       'avoidQuotes': true
     }],
     'prefer-spread': 1,
     'rest-spread-spacing': [2, 'never'],
+    'template-curly-spacing': [2, 'never'],
     'yield-star-spacing': [2, 'after']
   }
 };
