@@ -27,7 +27,7 @@ module.exports = {
     }],
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-target-blank': 2,
-    'react/jsx-no-undef': 1,
+    'react/jsx-no-undef': 2,
     'react/jsx-sort-props': [2, {
       ignoreCase: true
     }],
