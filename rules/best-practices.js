@@ -44,6 +44,7 @@ module.exports = {
     'no-useless-rename': 2,
     'no-useless-return': 2,
     radix: 2,
+    'unicode-bom': [2, 'never'],
     'wrap-iife': [2, 'outside'],
     yoda: 2,
 
