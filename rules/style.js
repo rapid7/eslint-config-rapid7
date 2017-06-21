@@ -7,9 +7,6 @@ module.exports = {
     'brace-style': [2, '1tbs', {
       'allowSingleLine': true
     }],
-    camelcase: [2, {
-      properties: 'never'
-    }],
     'comma-dangle': 2,
     'comma-spacing': [2, {
       'after': true,
@@ -78,7 +75,11 @@ module.exports = {
       functions: 'always',
       keywords: 'always'
     }],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [2, {
+      anonymous: 'never',
+      asyncArrow: 'always',
+      named: 'never'
+    }],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [2, {

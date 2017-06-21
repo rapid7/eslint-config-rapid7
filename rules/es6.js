@@ -30,7 +30,7 @@ module.exports = {
       globalReturn: true,
       experimentalObjectRestSpread: true
     },
-    ecmaVersion: 6,
+    ecmaVersion: 2017,
     sourceType: 'module'
   },
   rules: {
