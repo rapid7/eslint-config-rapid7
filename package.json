@@ -17,13 +17,12 @@
     }
   ],
   "dependencies": {
-    "eslint": "^3.16.0",
-    "eslint-plugin-import": "^2.0.0",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.1.0"
   },
   "description": "Rapid7's ESLint config, following our styleguide",
   "devDependencies": {
-    "react": ">=0.14.0"
+    "eslint": "^4.0.0"
   },
   "directories": {},
   "homepage": "https://github.com/rapid7/eslint-config-rapid7",
@@ -46,11 +45,8 @@
   "name": "eslint-config-rapid7",
   "optionalDependencies": {},
   "peerDependencies": {
-    "eslint": "^3.7.0",
-    "eslint-plugin-import": "^2.0.0",
-    "eslint-plugin-react": "^6.4.0"
+    "eslint": "^3.0.0 || ^4.0.0"
   },
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rapid7/eslint-config-rapid7.git"

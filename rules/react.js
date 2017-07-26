@@ -14,6 +14,7 @@ module.exports = {
 
     'react/jsx-boolean-value': [2, 'never'],
     'react/jsx-closing-bracket-location': 2,
+    'react/jsx-closing-tag-location': 2,
     'react/jsx-curly-spacing': [2, 'never'],
     'react/jsx-equals-spacing': [2, 'never'],
     'react/jsx-filename-extension': [2, {
@@ -21,7 +22,7 @@ module.exports = {
         '.js'
       ]
     }],
-    'react/jsx-first-prop-new-line': [2, 'multiline'],
+    'react/jsx-first-prop-new-line': 2,
     'react/jsx-key': 2,
     'react/jsx-max-props-per-line': [2, {
       'maximum': 1
