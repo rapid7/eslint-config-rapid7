@@ -69,6 +69,7 @@ module.exports = {
       avoidEscape: true,
       allowTemplateLiterals: true
     }],
+    'rest-spread-spacing': [2, 'never'],
     semi: [2, 'always'],
     'space-before-blocks': [2, {
       classes: 'always',
