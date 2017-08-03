@@ -9,8 +9,11 @@ module.exports = {
         array: 'Array',
         Boolean: 'boolean',
         Function: 'function',
+        map: 'Map',
         Number: 'number',
         object: 'Object',
+        promise: 'Promise',
+        set: 'Set',
         String: 'string'
       },
       requireReturn: false,
