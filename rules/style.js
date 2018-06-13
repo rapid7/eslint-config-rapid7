@@ -110,7 +110,7 @@ module.exports = {
     'object-property-newline': [
       2,
       {
-        allowAllPropertiesOnSameLine: false,
+        allowMultiplePropertiesPerLine: false,
       },
     ],
     'object-shorthand': [
