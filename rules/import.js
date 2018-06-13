@@ -9,7 +9,6 @@ module.exports = {
     'import/newline-after-import': 2,
     'import/no-duplicates': 2,
     'import/no-extraneous-dependencies': 2,
-    'import/no-named-as-default': 2,
     'import/no-self-import': 2,
     'import/order': 2,
   },
