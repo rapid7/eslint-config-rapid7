@@ -1,14 +1,4 @@
 module.exports = {
-  env: {
-    node: true,
-  },
-  parserOptions: {
-    ecmaFeatures: {
-      globalReturn: false,
-      experimentalObjectRestSpread: false,
-    },
-    sourceType: 'script',
-  },
   rules: {
     'linebreak-style': [1, 'unix'],
     'lines-around-directive': [2, 'always'],
