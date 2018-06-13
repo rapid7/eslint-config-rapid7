@@ -27,7 +27,7 @@ module.exports = {
         allowSingleLine: true,
       },
     ],
-    'comma-dangle': [2, 'never'],
+    'comma-dangle': [2, 'always'],
     'comma-spacing': [
       2,
       {
