@@ -1,5 +1,3 @@
-"use strict";
-
 module.exports = {
   rules: {
     curly: [2, "all"],

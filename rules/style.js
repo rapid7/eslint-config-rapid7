@@ -1,5 +1,3 @@
-"use strict";
-
 module.exports = {
   rules: {
     "arrow-body-style": [2, "as-needed"],
