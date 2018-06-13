@@ -10,6 +10,5 @@ module.exports = {
     'import/no-duplicates': 2,
     'import/no-extraneous-dependencies': 2,
     'import/no-self-import': 2,
-    'import/order': 2,
   },
 };
