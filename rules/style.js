@@ -27,7 +27,16 @@ module.exports = {
         allowSingleLine: true,
       },
     ],
-    'comma-dangle': [2, 'always'],
+    'comma-dangle': [
+      2,
+      {
+        arrays: 'only-multiline',
+        objects: 'only-multiline',
+        imports: 'never',
+        exports: 'never',
+        functions: 'never',
+      },
+    ],
     'comma-spacing': [
       2,
       {
@@ -91,13 +100,19 @@ module.exports = {
     'object-curly-newline': [
       2,
       {
-        ObjectExpression: {multiline: true, minProperties: 2},
-        ObjectPattern: {consistent: true, multiline: false},
-        ImportDeclaration: {multiline: true, minProperties: 2},
-        ExportDeclaration: {multiline: true, minProperties: 2},
+        ImportDeclaration: { multiline: true, minProperties: 2 },
+        ExportDeclaration: { multiline: true, minProperties: 2 },
+        ObjectExpression: { multiline: true, minProperties: 2 },
+        ObjectPattern: { consistent: true, multiline: false },
       },
     ],
     'object-curly-spacing': [2, 'never'],
+    'object-property-newline': [
+      2,
+      {
+        allowMultiplePropertiesPerLine: false,
+      },
+    ],
     'object-shorthand': [
       2,
       'always',
