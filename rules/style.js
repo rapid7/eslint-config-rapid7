@@ -168,5 +168,7 @@ module.exports = {
     ],
     'template-curly-spacing': [2, 'never'],
     'yield-star-spacing': [2, 'after'],
+
+    'rapid7/sort-object-keys': 2,
   },
 };
