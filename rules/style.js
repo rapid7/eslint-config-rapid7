@@ -100,19 +100,13 @@ module.exports = {
     'object-curly-newline': [
       2,
       {
-        ImportDeclaration: { multiline: true, minProperties: 2 },
-        ExportDeclaration: { multiline: true, minProperties: 2 },
-        ObjectExpression: { multiline: true, minProperties: 2 },
-        ObjectPattern: { consistent: true, multiline: false },
+        ExportDeclaration: {multiline: true, minProperties: 2},
+        ImportDeclaration: {multiline: true, minProperties: 2},
+        ObjectExpression: {multiline: true, minProperties: 2},
+        ObjectPattern: {consistent: true, multiline: false},
       },
     ],
     'object-curly-spacing': [2, 'never'],
-    'object-property-newline': [
-      2,
-      {
-        allowMultiplePropertiesPerLine: false,
-      },
-    ],
     'object-shorthand': [
       2,
       'always',
@@ -174,5 +168,7 @@ module.exports = {
     ],
     'template-curly-spacing': [2, 'never'],
     'yield-star-spacing': [2, 'after'],
+
+    'rapid7/sort-object-keys': 2,
   },
 };
