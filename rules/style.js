@@ -30,8 +30,8 @@ module.exports = {
     'comma-dangle': [
       2,
       {
-        arrays: 'only-multiline',
-        objects: 'only-multiline',
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
         imports: 'never',
         exports: 'never',
         functions: 'never',
