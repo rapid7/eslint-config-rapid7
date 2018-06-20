@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: ['rapid7'],
   rules: {
     'arrow-body-style': [2, 'as-needed'],
     'arrow-parens': [2, 'always'],
@@ -169,12 +168,5 @@ module.exports = {
     ],
     'template-curly-spacing': [2, 'never'],
     'yield-star-spacing': [2, 'after'],
-
-    'rapid7/named-import-newline': [
-      2,
-      {
-        allowMultipleImportsPerLine: false,
-      },
-    ],
   },
 };

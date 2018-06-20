@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['import'],
+  plugins: ['import', 'rapid7'],
   rules: {
     'import/default': 2,
     'import/export': 2,
@@ -10,5 +10,12 @@ module.exports = {
     'import/no-duplicates': 2,
     'import/no-extraneous-dependencies': 2,
     'import/no-self-import': 2,
+
+    'rapid7/named-import-newline': [
+      2,
+      {
+        allowMultipleImportsPerLine: false,
+      },
+    ],
   },
 };
