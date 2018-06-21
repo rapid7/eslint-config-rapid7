@@ -128,6 +128,7 @@ module.exports = {
         allowNamedFunctions: true,
       },
     ],
+    'prefer-rest-params': 2,
     'prefer-spread': 2,
     'prefer-template': 2,
     'quote-props': [2, 'as-needed'],
