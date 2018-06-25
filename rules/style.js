@@ -170,6 +170,13 @@ module.exports = {
     'template-curly-spacing': [2, 'never'],
     'yield-star-spacing': [2, 'after'],
 
+    'rapid7/no-trailing-underscore': [
+      2,
+      {
+        enforceInMethodNames: true,
+        enforceInPropertyNames: true,
+      },
+    ],
     'rapid7/sort-object-keys': 2,
   },
 };
