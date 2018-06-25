@@ -121,6 +121,18 @@ module.exports = {
       },
     ],
     'one-var-declaration-per-line': [1, 'initializations'],
+    'operator-linebreak': [
+      2,
+      'after',
+      {
+        overrides: {
+          '&&': 'before',
+          '||': 'before',
+          '?': 'before',
+          ':': 'before',
+        },
+      },
+    ],
     'padded-blocks': [2, 'never'],
     'prefer-arrow-callback': [
       2,
