@@ -8,6 +8,7 @@ module.exports = {
       2,
       {
         enforceConst: true,
+        ignore: [0, 1, -1],
         ignoreArrayIndexes: true,
       },
     ],
