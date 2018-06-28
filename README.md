@@ -46,7 +46,7 @@ If you want to override / modify specific rules, you can do so in your `rules` s
 - **rapid7/node**: Lints javascript specific to implementations in a NodeJS environment
   - Includes `rapid7` in rules
 - **rapid7/react**: Lints javascript specific to use with ReactJS
-- **rapid7/strict**: Provides additional rules and overrides of certain base rules for a more strict linting of standard javascript in all contexts
+- **rapid7/strict**: Provides additional rules and overrides of certain base rules for a more strict linting of standard javascript in all environments
 
 ## Combining configurations
 
