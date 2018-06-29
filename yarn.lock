@@ -276,9 +276,9 @@ eslint-plugin-import@^2.13.0:
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
 
-eslint-plugin-rapid7@^7.3.2:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-rapid7/-/eslint-plugin-rapid7-7.3.2.tgz#4bcaa41d105f725768c2824111c68115ee823bbf"
+eslint-plugin-rapid7@^7.3.3:
+  version "7.3.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-rapid7/-/eslint-plugin-rapid7-7.3.3.tgz#a07074af8468f1d3354f8b0f296deaa2e676a0af"
   dependencies:
     natural-compare "^1.4.0"
 

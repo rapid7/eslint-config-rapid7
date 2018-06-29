@@ -189,6 +189,6 @@ module.exports = {
         enforceInPropertyNames: true,
       },
     ],
-    'rapid7/sort-object-keys': 2,
+    'rapid7/sort-object-keys': [2, 'asc', {natural: true}],
   },
 };
