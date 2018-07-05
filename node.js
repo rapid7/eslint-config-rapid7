@@ -10,10 +10,12 @@ module.exports = {
   },
   globals: {
     __dirname: true,
+    Buffer: true,
     global: true,
     module: true,
     process: true,
     require: true,
+    setImmediate: true,
   },
   parserOptions: {
     ecmaVersion: 2017,
