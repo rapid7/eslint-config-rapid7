@@ -7,8 +7,11 @@ module.exports = {
     'no-unused-vars': [
       1,
       {
+        args: 'after-used',
+        argsIgnorePattern: '[iI]gnored',
+        ignoreRestSiblings: true,
         vars: 'all',
-        varsIgnorePattern: 'React|[iI]gnored',
+        varsIgnorePattern: '[iI]gnored',
       },
     ],
     'no-use-before-define': 2,
