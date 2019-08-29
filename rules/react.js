@@ -13,8 +13,8 @@ module.exports = {
   rules: {
     'jsx-quotes': [2, 'prefer-double'],
 
-    "react-hooks/rules-of-hooks": 'error',
-    "react-hooks/exhaustive-deps": 'error',
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": 2,
     'react/jsx-boolean-value': [2, 'never'],
     'react/jsx-closing-bracket-location': 2,
     'react/jsx-closing-tag-location': 2,
