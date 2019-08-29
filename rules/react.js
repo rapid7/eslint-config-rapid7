@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -13,6 +13,8 @@ module.exports = {
   rules: {
     'jsx-quotes': [2, 'prefer-double'],
 
+    "react-hooks/rules-of-hooks": 'error',
+    "react-hooks/exhaustive-deps": 'error',
     'react/jsx-boolean-value': [2, 'never'],
     'react/jsx-closing-bracket-location': 2,
     'react/jsx-closing-tag-location': 2,
