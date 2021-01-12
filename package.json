@@ -23,7 +23,7 @@
   },
   "description": "Rapid7's ESLint config, following our styleguide",
   "devDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^7.17.0"
   },
   "directories": {},
   "homepage": "https://github.com/rapid7/eslint-config-rapid7",
@@ -46,7 +46,7 @@
   "name": "eslint-config-rapid7",
   "optionalDependencies": {},
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^7.0.0"
   },
   "repository": {
     "type": "git",
