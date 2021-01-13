@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['eslint-config-rapid7/base'].map(require.resolve),
+  extends: ['./base'].map(require.resolve),
 };

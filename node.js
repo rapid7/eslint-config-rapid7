@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint-config-rapid7/base', 'eslint-config-rapid7/rules/node'].map(require.resolve),
+  extends: ['./base', './rules/node'].map(require.resolve),
   env: {
     amd: false,
     browser: true,
