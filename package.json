@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rapid7/eslint-config-rapid7.git"
+    "url": "https://github.com/rapid7/eslint-config-rapid7.git"
   },
   "version": "3.1.0"
 }
